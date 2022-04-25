@@ -5,25 +5,29 @@
 }
 
 .obenSection {
-  width: 60%;
-  height: 60%;
-  margin: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-.obenSection > h1 {
+.obenSection > div {
+  max-width: 500px;
+}
+
+.obenSection > div > h1 {
   font-size: 30px;
   font-family: "Courier New", Courier, monospace;
   margin: 50px 0;
 }
 
-.obenSection > p {
+.obenSection > div > p {
   font-size: 20px;
   font-family: "Courier New", Courier, monospace;
   margin: 50px 0;
   font-weight: bold;
 }
 
-.obenSection > p > span {
+.obenSection > div > p > span {
   color: turquoise;
 }
 
@@ -39,12 +43,12 @@
   width: 100%;
   height: auto;
   background-color: lightgray;
-  padding: 50px 0px;
+  padding: 50px 20px;
 }
 
 .untenSection > div {
   max-width: 60%;
-  max-width: 50%;
+  max-width: 800px;
   width: fit-content;
   background-color: white;
   padding: 20px;
@@ -55,14 +59,14 @@
 .untenSection > div > h1 {
   color: black;
   background-color: gold;
-  display: inline;
+  width: fit-content;
   padding: 10px 10px;
   margin-left: -30px;
   border-bottom: 5px solid goldenrod;
 }
 
 .first {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .untenSection > div > p > span {
