@@ -48,7 +48,6 @@
 
 .untenSection > div {
   max-width: 800px;
-  width: fit-content;
   background-color: white;
   padding: 20px;
   margin: auto;
